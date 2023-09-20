@@ -1,2 +1,2 @@
 # flex-reg-glmmTMB
-Flexible regression modelling with glmmTMB
+Flexible regression modelling with glmmTMB (course material)
