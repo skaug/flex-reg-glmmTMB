@@ -29,6 +29,6 @@ m0 = glmmTMB(y ~ treatment + (1|t)+(1|ID),
 
 # extract results
 fixef(m0)$disp
-c(log(5^2), log(10^2)-log(5^2)) # expected dispersion model coefficients
+c(log(5), log(10)-log(5)) # expected dispersion model coefficients
 
 fixef(m0)
